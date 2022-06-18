@@ -8,10 +8,12 @@
     src: url(../assets/fonts/GothamLight.ttf);
 }
 /* Setando configuração global */
+
 *{
     margin: 0; 
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Gotham';
 }
 li{
     list-style: none;
@@ -19,4 +21,81 @@ li{
 }
 a{
     text-decoration: none;
+}
+button{
+    padding: 16px 32px 18px;
+    border:none; 
+    text-transform: uppercase;
+    font-weight: 60px;
+    border-radius: 50px;
+
+
+}
+button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+header{
+    background-color: black;
+    padding: 18px 180px;
+    position: relative;
+
+}
+.spotify-logo{
+    display: inline-block;
+}
+
+.spotify-logo svg{
+    fill: #fff;
+    height: 42px;
+}
+header nav{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+}
+header nav a{
+    color:#fff;
+}
+header nav ul li{
+    padding: 10px;
+    display: inline-block;
+    margin: auto 20px;
+    font-size: 15px;
+
+}
+
+header nav ul li:hover{
+    color: #1ed760
+}
+/* controle principal */
+/* Primeira Section */
+
+#seja-premium{
+    background-color: #ffcdd2;
+    padding: 175px 80px;
+    text-align: center;
+}
+#seja-premium h1, #seja-premium button, #seja-premium p{
+    margin: 35px;
+}
+#seja-premium h1, #seja-premium p{
+    color: #d83519; 
+}
+#seja-premium h1{
+    font-size: 80px; 
+
+}
+#seja-premium button{
+    color:#fff; 
+    background-color: #d83519;
+  
+}
+#seja-premium button:hover{
+    background-color: #c12f16;
+}
+#seja-premium p{
+    font-size: 12px; 
+    font-family: 'Gothan Ligth';
+    font-weight: bold;
 }
