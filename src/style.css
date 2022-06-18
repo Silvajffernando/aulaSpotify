@@ -7,3 +7,16 @@
     font-family: 'Gotham Light'; 
     src: url(../assets/fonts/GothamLight.ttf);
 }
+/* Setando configuração global */
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+li{
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+}
